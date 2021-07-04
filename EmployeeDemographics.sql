@@ -1,4 +1,4 @@
-/* Create Tale Named EmployeeDemographics*/
+/* Create Table Named EmployeeDemographics*/
 Create Table EmployeeDemographics (EmployeeId int, FirstName varchar(50), LastName varchar(50), Age int, Gender varchar(50))
 
 
