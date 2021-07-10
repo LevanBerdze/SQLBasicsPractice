@@ -1,8 +1,8 @@
 ----------------------------------------
-'HR' database--
+/*'HR' database--*/
 ------------------------------------------
 
- Create the tables
+/*Create the tables*/
 
 CREATE TABLE EMPLOYEES (
                           EMP_ID CHAR(9) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE LOCATIONS (
                           PRIMARY KEY (LOCT_ID,DEP_ID_LOC)
                         );
 
- Insert Data Into Tables
+/*Insert Data Into Tables*/
 
 insert into EMPLOYEES values 
 (1001, 'John',	'Thomas', 123456, '1/9/1976', 'M', '5631 Rice, OakPark, IL', 100, 100000, 30001, 2),
@@ -96,7 +96,5 @@ insert into LOCATIONS values
 ('L0001', 2),
 ('L0002', 5),
 ('L0003', 7)
-
-
 
 
